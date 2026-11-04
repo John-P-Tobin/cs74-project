@@ -1,0 +1,10 @@
+en-US 11514 train, 2033 val
+es-ES 11514 train, 2033 val
+ja-JP 11514 train, 2033 val
+en-US: 19967 features | accuracy 0.817 | macro-F1 0.762
+es-ES: 22429 features | accuracy 0.806 | macro-F1 0.750
+ja-JP: 56996 features | accuracy 0.796 | macro-F1 0.741
+
+Zero-shot TF-IDF (trained on English only):
+en-US -> es-ES: accuracy 0.194 | macro-F1 0.171
+en-US -> ja-JP: accuracy 0.075 | macro-F1 0.033
