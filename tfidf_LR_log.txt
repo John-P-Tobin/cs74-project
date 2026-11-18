@@ -1,0 +1,38 @@
+
+=== tfidf | en-US (19967 features) ===
+  C=0.01  class_weight=None       val acc 0.186 | val macro-F1 0.047
+  C=0.01  class_weight=balanced   val acc 0.639 | val macro-F1 0.590
+  C=0.1   class_weight=None       val acc 0.624 | val macro-F1 0.445
+  C=0.1   class_weight=balanced   val acc 0.718 | val macro-F1 0.681
+  C=1     class_weight=None       val acc 0.817 | val macro-F1 0.762
+  C=1     class_weight=balanced   val acc 0.825 | val macro-F1 0.802
+  C=10    class_weight=None       val acc 0.853 | val macro-F1 0.853
+  C=10    class_weight=balanced   val acc 0.854 | val macro-F1 0.855
+  -> best: C=10, class_weight=balanced
+
+=== tfidf | es-ES (22429 features) ===
+  C=0.01  class_weight=None       val acc 0.183 | val macro-F1 0.047
+  C=0.01  class_weight=balanced   val acc 0.596 | val macro-F1 0.577
+  C=0.1   class_weight=None       val acc 0.600 | val macro-F1 0.434
+  C=0.1   class_weight=balanced   val acc 0.680 | val macro-F1 0.655
+  C=1     class_weight=None       val acc 0.806 | val macro-F1 0.750
+  C=1     class_weight=balanced   val acc 0.805 | val macro-F1 0.786
+  C=10    class_weight=None       val acc 0.838 | val macro-F1 0.805
+  C=10    class_weight=balanced   val acc 0.844 | val macro-F1 0.842
+  -> best: C=10, class_weight=balanced
+
+=== tfidf | ja-JP (56996 features) ===
+  C=0.01  class_weight=None       val acc 0.106 | val macro-F1 0.021
+  C=0.01  class_weight=balanced   val acc 0.676 | val macro-F1 0.631
+  C=0.1   class_weight=None       val acc 0.494 | val macro-F1 0.294
+  C=0.1   class_weight=balanced   val acc 0.702 | val macro-F1 0.660
+  C=1     class_weight=None       val acc 0.796 | val macro-F1 0.741
+  C=1     class_weight=balanced   val acc 0.806 | val macro-F1 0.774
+  C=10    class_weight=None       val acc 0.833 | val macro-F1 0.800
+  C=10    class_weight=balanced   val acc 0.838 | val macro-F1 0.807
+  -> best: C=10, class_weight=balanced
+tfidf  en-US -> en-US test: accuracy 0.842 | macro-F1 0.800  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  en-US -> es-ES test: accuracy 0.239 | macro-F1 0.236  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  en-US -> ja-JP test: accuracy 0.078 | macro-F1 0.042  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  es-ES -> es-ES test: accuracy 0.832 | macro-F1 0.805  [C=10, class_weight=balanced, val macro-F1 0.842]
+tfidf  ja-JP -> ja-JP test: accuracy 0.827 | macro-F1 0.795  [C=10, class_weight=balanced, val macro-F1 0.807]

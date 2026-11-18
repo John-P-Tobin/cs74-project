@@ -1,0 +1,5 @@
+tfidf  en-US -> en-US test: accuracy 0.842 | macro-F1 0.800  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  en-US -> es-ES test: accuracy 0.239 | macro-F1 0.236  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  en-US -> ja-JP test: accuracy 0.078 | macro-F1 0.042  [C=10, class_weight=balanced, val macro-F1 0.855]
+tfidf  es-ES -> es-ES test: accuracy 0.832 | macro-F1 0.805  [C=10, class_weight=balanced, val macro-F1 0.842]
+tfidf  ja-JP -> ja-JP test: accuracy 0.827 | macro-F1 0.795  [C=10, class_weight=balanced, val macro-F1 0.807]
