@@ -1,0 +1,32 @@
+
+=== minilm | C=10, class_weight=None (chosen on English validation) ===
+minilm es-ES k=0   test: accuracy 0.751 +/- 0.000 | macro-F1 0.700 +/- 0.000  [C=10, class_weight=None, 1 draw(s)]
+minilm es-ES k=8   test: accuracy 0.765 +/- 0.003 | macro-F1 0.731 +/- 0.005  [C=10, class_weight=None, 3 draw(s)]
+minilm es-ES k=32  test: accuracy 0.770 +/- 0.001 | macro-F1 0.740 +/- 0.002  [C=10, class_weight=None, 3 draw(s)]
+minilm es-ES k=128 test: accuracy 0.787 +/- 0.002 | macro-F1 0.770 +/- 0.004  [C=10, class_weight=None, 3 draw(s)]
+minilm ja-JP k=0   test: accuracy 0.722 +/- 0.000 | macro-F1 0.678 +/- 0.000  [C=10, class_weight=None, 1 draw(s)]
+minilm ja-JP k=8   test: accuracy 0.753 +/- 0.002 | macro-F1 0.721 +/- 0.004  [C=10, class_weight=None, 3 draw(s)]
+minilm ja-JP k=32  test: accuracy 0.770 +/- 0.001 | macro-F1 0.741 +/- 0.002  [C=10, class_weight=None, 3 draw(s)]
+minilm ja-JP k=128 test: accuracy 0.785 +/- 0.003 | macro-F1 0.762 +/- 0.005  [C=10, class_weight=None, 3 draw(s)]
+
+=== mpnet | C=10, class_weight=balanced (chosen on English validation) ===
+mpnet  es-ES k=0   test: accuracy 0.781 +/- 0.000 | macro-F1 0.741 +/- 0.000  [C=10, class_weight=balanced, 1 draw(s)]
+mpnet  es-ES k=8   test: accuracy 0.780 +/- 0.001 | macro-F1 0.743 +/- 0.003  [C=10, class_weight=balanced, 3 draw(s)]
+mpnet  es-ES k=32  test: accuracy 0.780 +/- 0.002 | macro-F1 0.744 +/- 0.002  [C=10, class_weight=balanced, 3 draw(s)]
+mpnet  es-ES k=128 test: accuracy 0.796 +/- 0.002 | macro-F1 0.757 +/- 0.001  [C=10, class_weight=balanced, 3 draw(s)]
+mpnet  ja-JP k=0   test: accuracy 0.753 +/- 0.000 | macro-F1 0.724 +/- 0.000  [C=10, class_weight=balanced, 1 draw(s)]
+mpnet  ja-JP k=8   test: accuracy 0.743 +/- 0.004 | macro-F1 0.712 +/- 0.006  [C=10, class_weight=balanced, 3 draw(s)]
+mpnet  ja-JP k=32  test: accuracy 0.749 +/- 0.002 | macro-F1 0.719 +/- 0.005  [C=10, class_weight=balanced, 3 draw(s)]
+mpnet  ja-JP k=128 test: accuracy 0.778 +/- 0.001 | macro-F1 0.743 +/- 0.003  [C=10, class_weight=balanced, 3 draw(s)]
+
+=== gemma | C=10, class_weight=balanced (chosen on English validation) ===
+gemma  es-ES k=0   test: accuracy 0.836 +/- 0.000 | macro-F1 0.801 +/- 0.000  [C=10, class_weight=balanced, 1 draw(s)]
+gemma  es-ES k=8   test: accuracy 0.821 +/- 0.003 | macro-F1 0.789 +/- 0.004  [C=10, class_weight=balanced, 3 draw(s)]
+gemma  es-ES k=32  test: accuracy 0.826 +/- 0.001 | macro-F1 0.796 +/- 0.002  [C=10, class_weight=balanced, 3 draw(s)]
+gemma  es-ES k=128 test: accuracy 0.840 +/- 0.002 | macro-F1 0.805 +/- 0.002  [C=10, class_weight=balanced, 3 draw(s)]
+gemma  ja-JP k=0   test: accuracy 0.842 +/- 0.000 | macro-F1 0.796 +/- 0.000  [C=10, class_weight=balanced, 1 draw(s)]
+gemma  ja-JP k=8   test: accuracy 0.823 +/- 0.003 | macro-F1 0.784 +/- 0.004  [C=10, class_weight=balanced, 3 draw(s)]
+gemma  ja-JP k=32  test: accuracy 0.835 +/- 0.002 | macro-F1 0.797 +/- 0.003  [C=10, class_weight=balanced, 3 draw(s)]
+gemma  ja-JP k=128 test: accuracy 0.845 +/- 0.002 | macro-F1 0.809 +/- 0.001  [C=10, class_weight=balanced, 3 draw(s)]
+
+Saved results_fewshot.txt and results_fewshot.csv
