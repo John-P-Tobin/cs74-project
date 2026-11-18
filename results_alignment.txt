@@ -1,0 +1,9 @@
+# retrieval = share of target validation sentences whose nearest English sentence is their translation
+# B, C = test accuracy (in-language, zero-shot from English); gap = B - C
+model  target retrieval      B      C    gap
+minilm es-ES      0.760  0.807  0.751  0.056
+minilm ja-JP      0.598  0.810  0.722  0.088
+mpnet  es-ES      0.792  0.840  0.781  0.059
+mpnet  ja-JP      0.618  0.829  0.753  0.076
+gemma  es-ES      0.832  0.863  0.836  0.027
+gemma  ja-JP      0.733  0.868  0.842  0.026
