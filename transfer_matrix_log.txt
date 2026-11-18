@@ -1,0 +1,157 @@
+
+=== minilm | train/val en-US ===
+  C=0.01  class_weight=None       val acc 0.307 | val macro-F1 0.072
+  C=0.01  class_weight=balanced   val acc 0.650 | val macro-F1 0.607
+  C=0.1   class_weight=None       val acc 0.724 | val macro-F1 0.562
+  C=0.1   class_weight=balanced   val acc 0.759 | val macro-F1 0.727
+  C=1     class_weight=None       val acc 0.833 | val macro-F1 0.793
+  C=1     class_weight=balanced   val acc 0.821 | val macro-F1 0.804
+  C=10    class_weight=None       val acc 0.848 | val macro-F1 0.842
+  C=10    class_weight=balanced   val acc 0.845 | val macro-F1 0.841
+  -> best: C=10, class_weight=None (val macro-F1 0.842)
+  minilm en-US -> en-US test: accuracy 0.853 | macro-F1 0.835  [C=10, class_weight=None, val macro-F1 0.842]
+  minilm en-US -> es-ES test: accuracy 0.751 | macro-F1 0.700  [C=10, class_weight=None, val macro-F1 0.842]
+  minilm en-US -> ja-JP test: accuracy 0.722 | macro-F1 0.678  [C=10, class_weight=None, val macro-F1 0.842]
+
+=== minilm | train/val es-ES ===
+  C=0.01  class_weight=None       val acc 0.278 | val macro-F1 0.063
+  C=0.01  class_weight=balanced   val acc 0.562 | val macro-F1 0.545
+  C=0.1   class_weight=None       val acc 0.659 | val macro-F1 0.490
+  C=0.1   class_weight=balanced   val acc 0.689 | val macro-F1 0.665
+  C=1     class_weight=None       val acc 0.788 | val macro-F1 0.747
+  C=1     class_weight=balanced   val acc 0.754 | val macro-F1 0.731
+  C=10    class_weight=None       val acc 0.811 | val macro-F1 0.805
+  C=10    class_weight=balanced   val acc 0.797 | val macro-F1 0.785
+  -> best: C=10, class_weight=None (val macro-F1 0.805)
+  minilm es-ES -> en-US test: accuracy 0.817 | macro-F1 0.794  [C=10, class_weight=None, val macro-F1 0.805]
+  minilm es-ES -> es-ES test: accuracy 0.805 | macro-F1 0.777  [C=10, class_weight=None, val macro-F1 0.805]
+  minilm es-ES -> ja-JP test: accuracy 0.731 | macro-F1 0.700  [C=10, class_weight=None, val macro-F1 0.805]
+
+=== minilm | train/val ja-JP ===
+  C=0.01  class_weight=None       val acc 0.295 | val macro-F1 0.070
+  C=0.01  class_weight=balanced   val acc 0.568 | val macro-F1 0.532
+  C=0.1   class_weight=None       val acc 0.659 | val macro-F1 0.474
+  C=0.1   class_weight=balanced   val acc 0.676 | val macro-F1 0.640
+  C=1     class_weight=None       val acc 0.784 | val macro-F1 0.724
+  C=1     class_weight=balanced   val acc 0.753 | val macro-F1 0.727
+  C=10    class_weight=None       val acc 0.815 | val macro-F1 0.802
+  C=10    class_weight=balanced   val acc 0.790 | val macro-F1 0.771
+  -> best: C=10, class_weight=None (val macro-F1 0.802)
+  minilm ja-JP -> en-US test: accuracy 0.787 | macro-F1 0.748  [C=10, class_weight=None, val macro-F1 0.802]
+  minilm ja-JP -> es-ES test: accuracy 0.742 | macro-F1 0.694  [C=10, class_weight=None, val macro-F1 0.802]
+  minilm ja-JP -> ja-JP test: accuracy 0.810 | macro-F1 0.784  [C=10, class_weight=None, val macro-F1 0.802]
+
+=== mpnet | train/val en-US ===
+  C=0.01  class_weight=None       val acc 0.307 | val macro-F1 0.072
+  C=0.01  class_weight=balanced   val acc 0.665 | val macro-F1 0.632
+  C=0.1   class_weight=None       val acc 0.732 | val macro-F1 0.576
+  C=0.1   class_weight=balanced   val acc 0.771 | val macro-F1 0.735
+  C=1     class_weight=None       val acc 0.845 | val macro-F1 0.799
+  C=1     class_weight=balanced   val acc 0.833 | val macro-F1 0.804
+  C=10    class_weight=None       val acc 0.862 | val macro-F1 0.838
+  C=10    class_weight=balanced   val acc 0.861 | val macro-F1 0.854
+  -> best: C=10, class_weight=balanced (val macro-F1 0.854)
+  mpnet  en-US -> en-US test: accuracy 0.853 | macro-F1 0.830  [C=10, class_weight=balanced, val macro-F1 0.854]
+  mpnet  en-US -> es-ES test: accuracy 0.781 | macro-F1 0.741  [C=10, class_weight=balanced, val macro-F1 0.854]
+  mpnet  en-US -> ja-JP test: accuracy 0.753 | macro-F1 0.724  [C=10, class_weight=balanced, val macro-F1 0.854]
+
+=== mpnet | train/val es-ES ===
+  C=0.01  class_weight=None       val acc 0.289 | val macro-F1 0.068
+  C=0.01  class_weight=balanced   val acc 0.599 | val macro-F1 0.579
+  C=0.1   class_weight=None       val acc 0.668 | val macro-F1 0.496
+  C=0.1   class_weight=balanced   val acc 0.714 | val macro-F1 0.685
+  C=1     class_weight=None       val acc 0.815 | val macro-F1 0.782
+  C=1     class_weight=balanced   val acc 0.792 | val macro-F1 0.762
+  C=10    class_weight=None       val acc 0.835 | val macro-F1 0.820
+  C=10    class_weight=balanced   val acc 0.822 | val macro-F1 0.804
+  -> best: C=10, class_weight=None (val macro-F1 0.820)
+  mpnet  es-ES -> en-US test: accuracy 0.849 | macro-F1 0.816  [C=10, class_weight=None, val macro-F1 0.820]
+  mpnet  es-ES -> es-ES test: accuracy 0.839 | macro-F1 0.804  [C=10, class_weight=None, val macro-F1 0.820]
+  mpnet  es-ES -> ja-JP test: accuracy 0.772 | macro-F1 0.718  [C=10, class_weight=None, val macro-F1 0.820]
+
+=== mpnet | train/val ja-JP ===
+  C=0.01  class_weight=None       val acc 0.286 | val macro-F1 0.064
+  C=0.01  class_weight=balanced   val acc 0.580 | val macro-F1 0.544
+  C=0.1   class_weight=None       val acc 0.662 | val macro-F1 0.460
+  C=0.1   class_weight=balanced   val acc 0.699 | val macro-F1 0.668
+  C=1     class_weight=None       val acc 0.802 | val macro-F1 0.747
+  C=1     class_weight=balanced   val acc 0.775 | val macro-F1 0.750
+  C=10    class_weight=None       val acc 0.833 | val macro-F1 0.804
+  C=10    class_weight=balanced   val acc 0.820 | val macro-F1 0.796
+  -> best: C=10, class_weight=None (val macro-F1 0.804)
+  mpnet  ja-JP -> en-US test: accuracy 0.816 | macro-F1 0.780  [C=10, class_weight=None, val macro-F1 0.804]
+  mpnet  ja-JP -> es-ES test: accuracy 0.790 | macro-F1 0.751  [C=10, class_weight=None, val macro-F1 0.804]
+  mpnet  ja-JP -> ja-JP test: accuracy 0.830 | macro-F1 0.796  [C=10, class_weight=None, val macro-F1 0.804]
+
+=== gemma | train/val en-US ===
+  C=0.01  class_weight=None       val acc 0.440 | val macro-F1 0.128
+  C=0.01  class_weight=balanced   val acc 0.857 | val macro-F1 0.824
+  C=0.1   class_weight=None       val acc 0.835 | val macro-F1 0.672
+  C=0.1   class_weight=balanced   val acc 0.885 | val macro-F1 0.851
+  C=1     class_weight=None       val acc 0.896 | val macro-F1 0.853
+  C=1     class_weight=balanced   val acc 0.888 | val macro-F1 0.859
+  C=10    class_weight=None       val acc 0.899 | val macro-F1 0.874
+  C=10    class_weight=balanced   val acc 0.896 | val macro-F1 0.885
+  -> best: C=10, class_weight=balanced (val macro-F1 0.885)
+  gemma  en-US -> en-US test: accuracy 0.895 | macro-F1 0.864  [C=10, class_weight=balanced, val macro-F1 0.885]
+  gemma  en-US -> es-ES test: accuracy 0.836 | macro-F1 0.801  [C=10, class_weight=balanced, val macro-F1 0.885]
+  gemma  en-US -> ja-JP test: accuracy 0.842 | macro-F1 0.796  [C=10, class_weight=balanced, val macro-F1 0.885]
+
+=== gemma | train/val es-ES ===
+  C=0.01  class_weight=None       val acc 0.395 | val macro-F1 0.114
+  C=0.01  class_weight=balanced   val acc 0.788 | val macro-F1 0.757
+  C=0.1   class_weight=None       val acc 0.783 | val macro-F1 0.605
+  C=0.1   class_weight=balanced   val acc 0.833 | val macro-F1 0.807
+  C=1     class_weight=None       val acc 0.865 | val macro-F1 0.823
+  C=1     class_weight=balanced   val acc 0.863 | val macro-F1 0.848
+  C=10    class_weight=None       val acc 0.878 | val macro-F1 0.850
+  C=10    class_weight=balanced   val acc 0.866 | val macro-F1 0.855
+  -> best: C=10, class_weight=balanced (val macro-F1 0.855)
+  gemma  es-ES -> en-US test: accuracy 0.889 | macro-F1 0.855  [C=10, class_weight=balanced, val macro-F1 0.855]
+  gemma  es-ES -> es-ES test: accuracy 0.862 | macro-F1 0.831  [C=10, class_weight=balanced, val macro-F1 0.855]
+  gemma  es-ES -> ja-JP test: accuracy 0.846 | macro-F1 0.814  [C=10, class_weight=balanced, val macro-F1 0.855]
+
+=== gemma | train/val ja-JP ===
+  C=0.01  class_weight=None       val acc 0.394 | val macro-F1 0.113
+  C=0.01  class_weight=balanced   val acc 0.807 | val macro-F1 0.764
+  C=0.1   class_weight=None       val acc 0.786 | val macro-F1 0.598
+  C=0.1   class_weight=balanced   val acc 0.842 | val macro-F1 0.825
+  C=1     class_weight=None       val acc 0.865 | val macro-F1 0.814
+  C=1     class_weight=balanced   val acc 0.865 | val macro-F1 0.857
+  C=10    class_weight=None       val acc 0.879 | val macro-F1 0.859
+  C=10    class_weight=balanced   val acc 0.872 | val macro-F1 0.879
+  -> best: C=10, class_weight=balanced (val macro-F1 0.879)
+  gemma  ja-JP -> en-US test: accuracy 0.892 | macro-F1 0.863  [C=10, class_weight=balanced, val macro-F1 0.879]
+  gemma  ja-JP -> es-ES test: accuracy 0.842 | macro-F1 0.822  [C=10, class_weight=balanced, val macro-F1 0.879]
+  gemma  ja-JP -> ja-JP test: accuracy 0.867 | macro-F1 0.831  [C=10, class_weight=balanced, val macro-F1 0.879]
+
+=== Summary ===
+minilm en-US -> en-US test: accuracy 0.853 | macro-F1 0.835  [C=10, class_weight=None, val macro-F1 0.842]
+minilm en-US -> es-ES test: accuracy 0.751 | macro-F1 0.700  [C=10, class_weight=None, val macro-F1 0.842]
+minilm en-US -> ja-JP test: accuracy 0.722 | macro-F1 0.678  [C=10, class_weight=None, val macro-F1 0.842]
+minilm es-ES -> en-US test: accuracy 0.817 | macro-F1 0.794  [C=10, class_weight=None, val macro-F1 0.805]
+minilm es-ES -> es-ES test: accuracy 0.805 | macro-F1 0.777  [C=10, class_weight=None, val macro-F1 0.805]
+minilm es-ES -> ja-JP test: accuracy 0.731 | macro-F1 0.700  [C=10, class_weight=None, val macro-F1 0.805]
+minilm ja-JP -> en-US test: accuracy 0.787 | macro-F1 0.748  [C=10, class_weight=None, val macro-F1 0.802]
+minilm ja-JP -> es-ES test: accuracy 0.742 | macro-F1 0.694  [C=10, class_weight=None, val macro-F1 0.802]
+minilm ja-JP -> ja-JP test: accuracy 0.810 | macro-F1 0.784  [C=10, class_weight=None, val macro-F1 0.802]
+mpnet  en-US -> en-US test: accuracy 0.853 | macro-F1 0.830  [C=10, class_weight=balanced, val macro-F1 0.854]
+mpnet  en-US -> es-ES test: accuracy 0.781 | macro-F1 0.741  [C=10, class_weight=balanced, val macro-F1 0.854]
+mpnet  en-US -> ja-JP test: accuracy 0.753 | macro-F1 0.724  [C=10, class_weight=balanced, val macro-F1 0.854]
+mpnet  es-ES -> en-US test: accuracy 0.849 | macro-F1 0.816  [C=10, class_weight=None, val macro-F1 0.820]
+mpnet  es-ES -> es-ES test: accuracy 0.839 | macro-F1 0.804  [C=10, class_weight=None, val macro-F1 0.820]
+mpnet  es-ES -> ja-JP test: accuracy 0.772 | macro-F1 0.718  [C=10, class_weight=None, val macro-F1 0.820]
+mpnet  ja-JP -> en-US test: accuracy 0.816 | macro-F1 0.780  [C=10, class_weight=None, val macro-F1 0.804]
+mpnet  ja-JP -> es-ES test: accuracy 0.790 | macro-F1 0.751  [C=10, class_weight=None, val macro-F1 0.804]
+mpnet  ja-JP -> ja-JP test: accuracy 0.830 | macro-F1 0.796  [C=10, class_weight=None, val macro-F1 0.804]
+gemma  en-US -> en-US test: accuracy 0.895 | macro-F1 0.864  [C=10, class_weight=balanced, val macro-F1 0.885]
+gemma  en-US -> es-ES test: accuracy 0.836 | macro-F1 0.801  [C=10, class_weight=balanced, val macro-F1 0.885]
+gemma  en-US -> ja-JP test: accuracy 0.842 | macro-F1 0.796  [C=10, class_weight=balanced, val macro-F1 0.885]
+gemma  es-ES -> en-US test: accuracy 0.889 | macro-F1 0.855  [C=10, class_weight=balanced, val macro-F1 0.855]
+gemma  es-ES -> es-ES test: accuracy 0.862 | macro-F1 0.831  [C=10, class_weight=balanced, val macro-F1 0.855]
+gemma  es-ES -> ja-JP test: accuracy 0.846 | macro-F1 0.814  [C=10, class_weight=balanced, val macro-F1 0.855]
+gemma  ja-JP -> en-US test: accuracy 0.892 | macro-F1 0.863  [C=10, class_weight=balanced, val macro-F1 0.879]
+gemma  ja-JP -> es-ES test: accuracy 0.842 | macro-F1 0.822  [C=10, class_weight=balanced, val macro-F1 0.879]
+gemma  ja-JP -> ja-JP test: accuracy 0.867 | macro-F1 0.831  [C=10, class_weight=balanced, val macro-F1 0.879]
+
+Saved to results_transfer_matrix.txt
